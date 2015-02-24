@@ -10,8 +10,7 @@ currentNum = 0;
 for i in range (100,1000):
 	for j in range(100,1000):
 		currentNum = i * j;
-		if(isPalindrome(currentNum)):
-			if(currentNum > maxPalindrome):
-				maxPalindrome = currentNum 
+		if(isPalindrome(currentNum) and currentNum > maxPalindrome):
+			maxPalindrome = currentNum 
 print maxPalindrome;
 
